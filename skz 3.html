@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #444;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        section.team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .member {
+            position: relative;
+            width: 300px;
+            margin: 20px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+            .member:hover {
+                transform: scale(1.05);
+            }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            border-radius: 0 0 10px 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <title>Our Team</title>
+</head>
+<body>
+    <header>
+        <h1>Meet Our Amazing Team</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="team">
+        <div class="member">
+            <img src="https://i.pinimg.com/originals/1b/35/f4/1b35f423b1f9b3e10b69ae47692bd81c.jpg" alt="Hyunjin">
+            <div class="overlay">
+                <h2>Hyunjin</h2>
+                <p>The most fashionable and rich of the whole team; artist.</p>
+            </div>
+        </div>
+
+        <div class="member">
+            <img src="https://preview.redd.it/rwc9ghcfxsu51.jpg?width=640&crop=smart&auto=webp&s=e87c0c5a0b60777a2edcf338eab0d48ecc9e85b2" alt="Felix">
+            <div class="overlay">
+                <h2>Felix</h2>
+                <p>The sweetest and most positive in the whole team; everyone loves him. He bakes delicious brownies.</p>
+            </div>
+        </div>
+
+        <div class="member">
+            <img src="https://trikky.ru/wp-content/blogs.dir/1/files/2020/08/11/3894928f-288e-4c1e-9178-fdf8006b9bc6.jpeg" alt="Han">
+            <div class="overlay">
+                <h2>Han</h2>
+                <p>The funniest and most cheerful member of the team; joker and music lover.</p>
+            </div>
+        </div>
+
+        <div class="member">
+            <img src="https://static.wikia.nocookie.net/stray-kids/images/d/d8/Bang_Chan_Profile_Picture_-_Japan.jpg/revision/latest?cb=20230731204048" alt="Bang Chan">
+            <div class="overlay">
+                <h2>Bang Chan</h2>
+                <p>The most responsible of everyone on the team; Team Father.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Our Team</p>
+    </footer>
+</body>
+</html>
