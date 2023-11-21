@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Puzzle Assignment</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            height: 15vh;
+            background-color: rgba(255, 0, 0, 0.75);
+            margin-top: 10px;
+            border-radius: 10px;
+            text-align: center;
+            padding: 45px;
+            color: white;
+        }
+
+        .body {
+            background-color: rgba(240, 185, 175, 0.75);
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 20px;
+            justify-content: space-evenly;
+        }
+
+        .grid-item {
+            background-color: rgba(110, 110, 110, 0.3);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .flex-container {
+            padding-left: 7%;
+            height: 425px;
+            width: 45%;
+            border: solid black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: stretch;
+        }
+
+            .flex-container img {
+                max-width: 240px;
+                height: auto;
+                object-fit: cover;
+            }
+
+        .card .card-body:hover {
+            color: red;
+            transition: 0.2s;
+        }
+
+        .blockquote_font {
+            font-size: 25px;
+        }
+
+        i {
+            font-size: 30px !important;
+            padding-right: 15px;
+            color: blue;
+        }
+
+        a {
+            text-decoration: none !important;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Sofia Pryimak</h1>
+        <h2>Selected Puzzle: Fish</h2>
+    </header>
+    <div class="grid-item flex-container">
+        <img src="D:\4.4_puzzle3 (1)\img\puzzle3_D.jpg" alt="Puzzle Piece D">
+        <img src="D:\4.4_puzzle3 (1)\img\puzzle3_A.jpg" alt="Puzzle Piece A">
+        <img src="D:\4.4_puzzle3 (1)\img\puzzle3_G.jpg" alt="Puzzle Piece G">
+        <img src="D:\4.4_puzzle3 (1)\img\puzzle3_H.jpg" alt="Faulty Puzzle Piece" style="display: none;">
+        <img src="D:\4.4_puzzle3 (1)\img\puzzle3_J.jpg" alt="Puzzle Piece J">
+        <img src="D:\4.4_puzzle3 (1)\img\puzzle3_B.jpg" alt="Puzzle Piece B">
+        <img src="D:\4.4_puzzle3 (1)\img\puzzle3_C.jpg" alt="Puzzle Piece C">
+        <img src="D:\4.4_puzzle3 (1)\img\puzzle3_F.jpg" alt="Puzzle Piece F">
+        <img src="D:\4.4_puzzle3 (1)\img\puzzle3_I.jpg" alt="Puzzle Piece I">
+        <img src="D:\4.4_puzzle3 (1)\img\puzzle3_E.jpg" alt="Puzzle Piece E">
+    </div>
+    <div class="grid-item">
+    </div>
+</body>
+</html>
