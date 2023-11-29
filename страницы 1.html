@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Baseball Scorecard</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #fcfcfc;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #ff4500;
+            margin-bottom: 20px;
+        }
+
+        .scorecard {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+            .scorecard th, .scorecard td {
+                border: 1px solid #ddd;
+                padding: 12px;
+                text-align: center;
+            }
+
+            .scorecard th {
+                background-color: #ff4500;
+                color: #fff;
+            }
+
+            /* Pseudo-class example: Hover effect on table rows */
+            .scorecard tbody tr:hover {
+                background-color: #ffe0cc;
+                cursor: pointer;
+            }
+    </style>
+</head>
+<body>
+    <h1>Baseball Scorecard</h1>
+    <table class="scorecard">
+        <thead>
+            <tr>
+                <th>Inning</th>
+                <th>Team A</th>
+                <th>Team B</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr onclick="goToNextPage()">
+                <td>1</td>
+                <td>3</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        function goToNextPage() {
+            window.location.href = 'file:///D:/Desktop/.vs/%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B%203.html';
+        }
+    </script>
+</body>
+</html>
