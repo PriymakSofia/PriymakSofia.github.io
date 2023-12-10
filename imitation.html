@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<head>
+    <title>The Imitation Assignment</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="CSSstyle3.css">
+    <style>
+        .sea {
+            background-image: url("C:\Users\supru\Downloads\задание\seagull.png");
+            background: linear-gradient(to right, #CF9FFF, white);
+            box-shadow: 3px 3px 10px
+        }
+
+        .tic {
+            border: 40px solid transparent;
+            border-image-source: url("C:\Users\supru\Downloads\задание\tic-tac-toe.png");
+            border-image-repeat: round;
+            border-image-slice: 60;
+            width: 500px;
+        }
+
+        .field {
+            position: absolute;
+            filter: grayscale(100%);
+        }
+
+        .img {
+            position: absolute;
+            filter: sepia(100%) hue-rotate(190deg) saturate(500%) drop-shadow(15px 3px 2px #000000);
+        }
+
+        .penguins {
+            filter: sepia(100%);
+            border: solid 1px #000000;
+            background-image: url("C:\Users\supru\Downloads\задание\penguins.jpg");
+            border-radius: 1000px;
+        }
+
+        .stage_teater {
+            filter: blur(4px)
+        }
+
+        .stage_teater_text {
+            font-size: 30px;
+            bottom: 210px;
+            padding-left: 130px;
+            color: white;
+            position: relative;
+        }
+
+        .But_Things {
+            border-radius: 100px 0px 100px 0px;
+            filter: sepia(100%) hue-rotate(190deg) saturate(500%)
+        }
+    </style>
+</head>
+<body>
+    <h1 style=" font-family: cursive;background-color:rgb(255, 255, 0);" align=center>
+        The Imitation Assignment<h1>
+            <div>
+                <img src="C:\Users\supru\Downloads\задание\seagull.png" class="sea">
+            </div>
+            <div>
+                <img src="C:\Users\supru\Downloads\задание\tic-tac-toe.png" class="tic">
+                <img src="C:\Users\supru\Downloads\задание\football_field.jpg" class="field">
+            </div>
+            <div>
+                <img src="C:\Users\supru\Downloads\задание\penguins.jpg" class="penguins">
+            </div>
+            <div>
+                <img src="C:\Users\supru\Downloads\задание\theater_stage.jpg" class="stage_teater">
+                <div class="stage_teater_text">Presenting</div>
+            </div>
+            <div class="But_Things">
+                <img src="C:\Users\supru\Downloads\задание\butterfly.jpg" class="But_Things">
+            </div>
+            <div class="img">
+                <img src="C:\Users\supru\Downloads\задание\dinosaur.png" class="img">
+            </div>
+</body>
+</html>
