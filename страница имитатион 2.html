@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Imitation Assignment</title>
+    <link rel="stylesheet" type="text/css" href="CSSstyle3.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #CF9FFF, white);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .penguins {
+            filter: sepia(100%);
+            border: solid 1px #000000;
+            background-image: url("C:\Users\supru\Downloads\задание\penguins.jpg");
+            border-radius: 1000px;
+        }
+
+        .next-page-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="C:\Users\supru\Downloads\задание\penguins.jpg" class="penguins">
+    </div>
+    <button class="next-page-btn" onclick="goToNextPage()">Next Page</button>
+
+    <script>
+        function goToNextPage() {
+            window.location.href = 'file:///D:/Desktop/.vs/%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%20%D0%B8%D0%BC%D0%B8%D1%82%D0%B0%D1%82%D0%B8%D0%BE%D0%BD%203.html'; 
+        }
+    </script>
+</body>
+</html>
