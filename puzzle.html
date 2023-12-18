@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Puzzle</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'header'
+                'main'
+                'footer';
+            grid-template-rows: auto 1fr auto;
+            height: 100vh;
+        }
+
+        header {
+            grid-area: header;
+            text-align: center;
+            padding: 20px;
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        main {
+            grid-area: main;
+            display: grid;
+            grid-template-columns: repeat(3); 
+            gap: 0; 
+            padding: 20px;
+        }
+
+        .puzzle-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0;
+        }
+
+        .puzzle-piece {
+            flex: 0 0 32%; 
+            margin: 0; 
+            overflow: hidden;
+        }
+
+            .puzzle-piece img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+
+        footer {
+            grid-area: footer;
+            text-align: center;
+            padding: 10px;
+            background-color: #2ecc71;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <header>
+            <h1>Sofia Priymak</h1>
+            <p>Selected Puzzle: Fish</p>
+        </header>
+        <main>
+            <div class="puzzle-container">
+                <div class="puzzle-piece"><img src="C:\Users\supru\Downloads\пазл\puzzle3_D.jpg" alt="Puzzle Piece 1"></div>
+                <div class="puzzle-piece"><img src="C:\Users\supru\Downloads\пазл\puzzle3_A.jpg" alt="Puzzle Piece 2"></div>
+                <div class="puzzle-piece"><img src="C:\Users\supru\Downloads\пазл\puzzle3_G.jpg" alt="Puzzle Piece 3"></div>
+                <div class="puzzle-piece"><img src="C:\Users\supru\Downloads\пазл\puzzle3_J.jpg" alt="Puzzle Piece 4"></div>
+                <div class="puzzle-piece"><img src="C:\Users\supru\Downloads\пазл\puzzle3_B.jpg" alt="Puzzle Piece 5"></div>
+                <div class="puzzle-piece"><img src="C:\Users\supru\Downloads\пазл\puzzle3_C.jpg" alt="Puzzle Piece 6"></div>
+                <div class="puzzle-piece"><img src="C:\Users\supru\Downloads\пазл\puzzle3_F.jpg" alt="Puzzle Piece 7"></div>
+                <div class="puzzle-piece"><img src="C:\Users\supru\Downloads\пазл\puzzle3_I.jpg" alt="Puzzle Piece 8"></div>
+                <div class="puzzle-piece"><img src="C:\Users\supru\Downloads\пазл\puzzle3_E.jpg" alt="Puzzle Piece 9"></div>
+                <div class="puzzle-piece faulty-piece" style="display: none;">
+                    <img src="C:\Users\supru\Downloads\пазл\puzzle3_H.jpg"
+                         alt="Faulty Puzzle Piece">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Date Completed: 18/12/23</p>
+        </footer>
+    </div>
+</body>
+</html>
