@@ -1,0 +1,296 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Page - Song Fever</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'cursive';
+        }
+
+        header {
+            background-color: #000000;
+            color: #472f1a;
+            padding: 5px;
+            text-align: center;
+            border-bottom: 1px solid white;
+        }
+
+            header h1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            header h2 {
+                background-color: #000000;
+                color: #472f1a;
+                padding: 5px;
+                text-align: center;
+                border-bottom: 1px solid white;
+            }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #472f1a;
+            font-weight: bold;
+        }
+
+        .content-placeholder {
+            text-align: center;
+            padding: 40px;
+            color: #472f1a;
+        }
+
+            .content-placeholder h1 {
+                text-align: center;
+                font-size: 36px;
+                font-weight: bold;
+                margin-bottom: 10px;
+                margin-top: 20px;
+                color: #7e4910;
+            }
+
+            .content-placeholder p {
+                font-size: 24px;
+                font-weight: normal;
+                margin-bottom: 10px;
+            }
+
+            .content-placeholder h2 {
+                font-size: 28px;
+                font-weight: normal;
+                text-align: left;
+                margin-top: 20px;
+                color: #472f1a;
+            }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 17px;
+            text-align: left;
+            border-bottom: 1px solid #472f1a;
+            font-size: 20px;
+        }
+
+        th {
+            background-color: #7e4910;
+            color: white;
+        }
+
+        td {
+            background-color: #f8f8f8;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+            ul ul {
+                padding-left: 20px;
+            }
+
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Song Fever</h1>
+        <h2>Classic</h2>
+        <nav>
+            <ul>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82.html#">Home</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D1%80%D0%BE%D0%BA.html#">Rock</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BF%D0%BE%D0%BF.html#">Pop</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%B6%D0%B0%D0%B7%20%D0%B1%D0%BB%D1%8E%D0%B7.html">Jazz/Blues</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%D0%B0.html#">Classic</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%9C%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BE%D0%B1%D0%BE%20%D0%BC%D0%BD%D0%B5.html#">About Me</a></li>
+                <li><a href="#" onclick="scrollToSection('footer-section')">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="content-placeholder">
+        <h1>What is classic?</h1>
+        <h2><i><b>Classical music is an ambiguous concept that is used, depending on the context, in three meanings:</b></i></h2>
+        <p><b>1) Qualitative Assessment of Time-Tested Music:</b> In a broader sense, classical music refers to the music of the past that has stood the test of time and continues to resonate with modern society. This definition includes not only the masterpieces of "high" musical art but also exemplary works from entertainment genres of the past, such as the French and Viennese operettas of the 19th and early 20th centuries and waltzes by Johann Strauss. The term "classics" extends beyond traditional boundaries, encompassing genres like "jazz classics" and "classic pop."</p>
+        <p><b>2) Historical and Theoretical Definition of Classicism:</b> In a narrower historical and musical-theoretical context, classical music specifically refers to the period from the second half of the 18th century to the early 19th century, known as the era of classicism. This period, following the baroque era and preceding romanticism, is characterized by clarity, transparency, and a shift towards homophony. The Viennese Classical School, with prominent figures like Haydn, Mozart, and Beethoven, played a central role in shaping classical music. Key features include the development of the eight-bar period, classical harmony, the sonata form, and the establishment of genres like the symphony and quartet.</p>
+        <p><b>3) Typological Definition as Academic Music:</b> In a typological sense, classical music is often synonymous with academic music, imitating genres, compositional principles, instrumentation, and performance traditions prevalent in European music from the 17th to the early 20th century. While the 20th century saw conflicts between individual academic composers and traditional norms, this tension reflects a dynamic dialogue within the academic tradition. In contrast, other modern music genres, ranging from pop to jazz, lack a similar dialogue with classical traditions.</p>
+        <img src="https://images.pexels.com/photos/2034909/pexels-photo-2034909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Jazz" style="width: 1400px; height: 600px; margin: 20px;">
+        <h2>Classical Music Masterpieces</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Masterpieces</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Baroque</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Classical</td>
+                    <td>
+                        <ul>
+                            <li>Viennese Classical</li>
+                            <li>First Viennese School</li>
+                            <li>Second Viennese School</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Romantic</td>
+                    <td>
+                        <ul>
+                            <li>Early Romantic</li>
+                            <li>High Romantic</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>20th Century</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Opera</td>
+                    <td>
+                        <ul>
+                            <li>"Carmina Burana" - O Fortuna</li>
+                            <li>Chorus of Captive Maidens "Fly, Fly on the Wings of the Wind" from the opera "Prince Igor" by A.P. Borodin</li>
+                            <li>Aria (Habanera) from "Carmen" - "Love is a Rebellious Bird" by G. Bizet</li>
+                            <li>Aria of Cavaradossi from the opera "Tosca" by Giacomo Puccini</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Orchestral</td>
+                    <td>
+                        <ul>
+                            <li>"Four Seasons" by Antonio Vivaldi</li>
+                            <li>Adagio for Strings by Samuel Barber</li>
+                            <li>Ballet "The Nutcracker" by Pyotr Ilyich Tchaikovsky</li>
+                            <li>Wedding March from the Overture "A Midsummer Night's Dream" by Felix Mendelssohn</li>
+                            <li>Unfinished Symphony No. 8 by Franz Schubert</li>
+                            <li>Polonaise by Mikhail Glinka</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Solo Instruments</td>
+                    <td>
+                        <ul>
+                            <li>Caprice No. 24 by Niccolò Paganini</li>
+                            <li>Prelude in E Minor by Frédéric Chopin</li>
+                            <li>"Für Elise" by Ludwig van Beethoven</li>
+                            <li>Toccata and Fugue in D Minor by Johann Sebastian Bach</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Chamber Music</td>
+                    <td>
+                        <ul>
+                            <li>"Trout Quintet" by Franz Schubert</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Requiem and Sacred Music</td>
+                    <td>
+                        <ul>
+                            <li>Requiem in D Minor by Wolfgang Amadeus Mozart</li>
+                            <li>Adagio by Albinoni</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h1><i><b>Some Music</b></i></h1>
+        <audio controls>
+            <source src="C:\Users\supru\Music\Can-can-music.mp3" type="audio/mp3">
+        </audio>
+        <audio controls>
+            <source src="C:\Users\supru\Music\bize-karmen-sjuita-2-habanera.mp3" type="audio/mp3">
+        </audio>
+        <audio controls>
+            <source src=" C:\Users\supru\Music\bakh-tokkata-bwv-v-re-minor.mp3" type="audio/mp3">
+        </audio>
+    </section>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82.html#">Home</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D1%80%D0%BE%D0%BA.html#">Rock</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BF%D0%BE%D0%BF.html#">Pop</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B0%D0%B9%D1%82%20%D0%B4%D0%B6%D0%B0%D0%B7%20%D0%B1%D0%BB%D1%8E%D0%B7.html#">Jazz/Blues</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%D0%B0.html#">Classic</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%9C%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BE%D0%B1%D0%BE%20%D0%BC%D0%BD%D0%B5.html#">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <footer id="footer-section">
+        <div class="social-links">
+            <a href="https://t.me/SongBySofia" target="_blank">Telegram</a>
+            <a href="https://www.facebook.com/profile.php?id=100043176939605" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/song_fever_bysofia?igshid=ZGY1NnF5ZTNqMDlp" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/@songfeverbysofia?_t=8iQpY40TCLe&_r=1" target="_blank">TikTok</a>
+            <a href="https://youtube.com/@SongBySofia?si=FX7CQ54Vr7mRl9mv" target="_blank">YouTube</a>
+        </div>
+        <div class="contact-info">
+            <p>📞 Phone: +123456789</p>
+            <p>✉️ Email: info@songfever.com</p>
+        </div>
+        <section id="contact-section">
+        </section>
+        <div id="back-to-top" onclick="scrollToTop()">
+            🔝
+        </div>
+    </footer>
+    <script>
+        function scrollToSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        function toggleColumn(columnId) {
+            var column = document.getElementById(columnId);
+            column.style.display = (column.style.display === 'none' || column.style.display === '') ? 'table-cell' : 'none';
+        }
+    </script>
+</body>
+</html>

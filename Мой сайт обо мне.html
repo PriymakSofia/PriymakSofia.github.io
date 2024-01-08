@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Song Fever</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'cursive';
+            background-color: #f8f8f8;
+            color: #000000;
+        }
+
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid white;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        h1, h2 {
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: normal;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .site-description {
+            text-align: center;
+            padding: 60px 20px;
+            color: #000000;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin: 80px 20px;
+            position: relative;
+            animation: fadeIn 1s ease-out;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        .profile-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            transform: translateY(-50px);
+            opacity: 0;
+            animation: slideIn 1s ease-out 0.5s forwards;
+        }
+
+        @keyframes slideIn {
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin: 0 auto 20px;
+        }
+
+        .profile-and-info {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .profile-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: calc(50% - 10px);
+            padding: 20px;
+            text-align: center;
+            margin-right: 20px;
+        }
+
+        .info-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: calc(50% - 10px);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin: 0 auto 20px;
+        }
+
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Song Fever</h1>
+        <h2>About Me</h2>
+        <nav>
+            <ul>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82.html#">Home</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D1%80%D0%BE%D0%BA.html#">Rock</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BF%D0%BE%D0%BF.html#">Pop</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B0%D0%B9%D1%82%20%D0%B4%D0%B6%D0%B0%D0%B7%20%D0%B1%D0%BB%D1%8E%D0%B7.html#">Jazz/Blues</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%D0%B0.html#">Classic</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%9C%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BE%D0%B1%D0%BE%20%D0%BC%D0%BD%D0%B5.html#">About Me</a></li>
+                <li><a href="#" onclick="scrollToSection('footer-section')">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="site-description">
+        <div class="profile-and-info">
+            <div class="profile-card">
+                <img class="profile-pic" src="C:\Users\supru\Downloads\photo1704743907.jpeg" alt="Profile Picture">
+                <h1>Sofia Priymak</h1>
+                <p>Hello! I'm here to tell you a bit about myself</p>
+            </div>
+            <div class="info-card">
+                <h2>About Me</h2>
+                <p>My name is Sofia and I have been fond of music since childhood.</p>
+                <p>When I was little, I listened to music on the radio, then I even went to the choir and played the drums.</p>
+                <p>At the moment, I run my Telegram channel where I talk about music and share my thoughts and tastes.</p>
+                <p>I also upload music myself and I already have 1200 songs, but that's not all, in general I know thousands of songs and artists, so I want to share my passion and knowledge with everyone.</p>
+                ♡
+                <p>I hope that you will learn a lot about music on my website and channels)</p>
+            </div>
+        </div>
+    </section>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82.html#">Home</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D1%80%D0%BE%D0%BA.html#">Rock</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BF%D0%BE%D0%BF.html#">Pop</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%B6%D0%B0%D0%B7%20%D0%B1%D0%BB%D1%8E%D0%B7.html">Jazz/Blues</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%D0%B0.html#">Classic</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%9C%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BE%D0%B1%D0%BE%20%D0%BC%D0%BD%D0%B5.html#">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <footer id="footer-section">
+        <div class="social-links">
+            <a href="https://t.me/SongBySofia" target="_blank">Telegram</a>
+            <a href="https://www.facebook.com/profile.php?id=100043176939605" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/song_fever_bysofia?igshid=ZGY1NnF5ZTNqMDlp" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/@songfeverbysofia?_t=8iQpY40TCLe&_r=1" target="_blank">TikTok</a>
+            <a href="https://youtube.com/@SongBySofia?si=FX7CQ54Vr7mRl9mv" target="_blank">YouTube</a>
+        </div>
+        <div class="contact-info">
+            <p>📞 Phone: +123456789</p>
+            <p>✉️ Email: info@songfever.com</p>
+        </div>
+        <section id="contact-section">
+        </section>
+        <div id="back-to-top" onclick="scrollToTop()">
+            🔝
+        </div>
+    </footer>
+
+    <script>
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("back-to-top").style.display = "block";
+            } else {
+                document.getElementById("back-to-top").style.display = "none";
+            }
+        }
+
+        function scrollToSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>

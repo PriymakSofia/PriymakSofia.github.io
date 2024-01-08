@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page - Song Fever</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'cursive';
+        }
+
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 5px;
+            text-align: center;
+            border-bottom: 1px solid white;
+        }
+
+            header h1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            header h2 {
+                background-color: #000000;
+                color: white;
+                padding: 5px;
+                text-align: center;
+                border-bottom: 1px solid white;
+            }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .site-description {
+            text-align: center;
+            padding: 40px;
+            color: #000000;
+        }
+
+            .site-description h1 {
+                text-align: center;
+                font-size: 36px;
+                font-weight: bold;
+                margin-bottom: 10px;
+                margin-top: 20px; 
+            }
+
+            .site-description p {
+                font-size: 24px;
+                font-weight: normal;
+                margin-bottom: 10px;
+            }
+
+            .site-description h2 {
+                font-size: 28px;
+                font-weight: normal;
+                text-align: left;
+                margin-top: 20px;
+            }
+
+        .content-placeholder {
+            text-align: center;
+            padding: 20px; 
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+            .image-container img {
+                width: 1350px;
+                height: 400px;  
+                margin-right: 0;
+            }
+
+        .genre-table {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .genre-card {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid #000;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+            .genre-card h3 {
+                margin-bottom: 10px;
+            }
+
+        table {
+            width: 1000px;
+            margin: 35px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Song Fever</h1>
+        <h2>Rock</h2>
+        <nav>
+            <ul>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82.html#">Home</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D1%80%D0%BE%D0%BA.html#">Rock</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BF%D0%BE%D0%BF.html#">Pop</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B0%D0%B9%D1%82%20%D0%B4%D0%B6%D0%B0%D0%B7%20%D0%B1%D0%BB%D1%8E%D0%B7.html#">Jazz/Blues</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%D0%B0.html#">Classic</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%9C%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BE%D0%B1%D0%BE%20%D0%BC%D0%BD%D0%B5.html#">About Me</a></li>
+                <li><a href="#" onclick="scrollToSection('footer-section')">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="site-description">
+        <p><i> Rock is one of the most significant trends in musical culture.</i></p>
+        <p><i> Rock music practically has no age - it is listened to by schoolchildren, young people, middle-aged people and even pensioners.</i></p>
+        <p><i> Rock is a mind-blowing cocktail of rebellious spirit, deep meaning, bright and free guitar music, as well as charismatic performers</i></p>
+        <div class="image-container">
+            <img src="C:\Users\supru\Downloads\фоточка.png" alt="Rock Image">
+        </div>
+        <h1>What is rock?</h1>
+        <p>Rock is a general name for various types of popular music, which originated as an abbreviation for rock and roll.</p>
+        <p>This genre is characterized by a rhythmic sensation associated with movement, reflected in the terms <q>roll</q>, <q>twist</q>, <q>swing</q> and <q>shake</q>.</p>
+        <p>Although rock music is often performed using drums, electric guitars and bass guitars, they are not strictly necessary.</p>
+        <p>A characteristic feature of rock musicians is the performance of their own compositions.</p>
+        <iframe width="1000" height="500" src="https://www.youtube.com/embed/fXyRxZTuOYU?si=wI2EDOKM6L6XvsEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p>Rock covers a wide range of genres, from lighter genres such as dance rock 'n' roll and pop rock to heavier and more aggressive styles including death metal and grindcore. The lyrics range from light and casual to dark and philosophical. Rock is often compared with pop music and "pop".</p>
+        <h1>Where did rock come from?</h1>
+        <p>The origins of rock go back to <b>blues</b> and <b>jazz</b>, from which the first subgenres emerged - rock and roll and rockabilly. During the existence of rock, attempts were made to combine its styles with various genres, such as academic music, jazz, Latin rock and Indian music. The main centers of rock development are the USA and Western Europe. Rock has spawned many subcultures, such as greasers, hippies, punks, metalheads and others, each of which is associated with certain areas of rock music. Thus, rock is a diverse genre of popular music, united by common rhythmic features, but also capable of expressing a wide range of emotions and styles.</p>
+        <h1>Rock and roll is a wide range of popular music genres that includes:</h1>
+
+        <table>
+            <tr>
+                <th><b>Name</b></th>
+                <th><b>Description</b></th>
+            </tr>
+            <tr>
+                <td><b>Classic rock</b></td>
+                <td><b>Classic rock is a style of music based on the sounds of the 1950s and 1960s. It typically features heavy electric guitars, drums and vocals.</b></td>
+            </tr>
+            <tr>
+                <td><b>Punk rock</b></td>
+                <td><b>Punk rock is a genre of music that emerged in the mid-1970s. It is characterized by a fast tempo, aggressive lyrics and distorted guitars.</b></td>
+            </tr>
+            <tr>
+                <td><b>Alternative rock</b></td>
+                <td><b>Alternative rock is a genre of music that emerged in the 1980s. It is characterized by experimentation with musical styles and the inclusion of elements from other genres such as punk and folk.</b></td>
+            </tr>
+            <tr>
+                <td><b>Heavy metal</b></td>
+                <td><b>Heavy metal is a genre of music that emerged in the late 1960s and early 1970s. It is characterized by a loud, distorted sound and the use of aggressive vocals.</b></td>
+            </tr>
+            <tr>
+                <td><b>Indie rock</b></td>
+                <td><b>Indie rock is a genre of music that emerged in the 1990s. It is characterized by the use of lo-fi production techniques and the inclusion of elements from other genres such as punk and folk.</b></td>
+            </tr>
+            <tr>
+                <td><b>Grunge</b></td>
+                <td><b>Grunge is a genre of music that emerged in the early 1990s. It is characterized by the active use of distortion and the inclusion of elements of punk and alternative rock.</b></td>
+            </tr>
+            <tr>
+                <td><b>Pop punk</b></td>
+                <td><b>Pop punk is a genre of music that emerged in the mid-1990s. It is characterized by an upbeat sound and the inclusion of elements of pop music and punk rock.</b></td>
+            </tr>
+            <tr>
+                <td><b>Hard rock</b></td>
+                <td><b>Hard rock is a genre of music that emerged in the late 1960s. It is characterized by the active use of electric guitar, drums and vocals.</b></td>
+            </tr>
+        </table>
+        <h1>The Most Popular Rock Bands</h1>
+    </section>
+    <section class="content-placeholder">
+        <section class="genre-table">
+            <div class="genre-card">
+                <h3>The Beatles</h3>
+                <p>Rock</p>
+            </div>
+
+            <div class="genre-card">
+                <h3>Metallica</h3>
+                <p>Heavy Metal</p>
+            </div>
+
+            <div class="genre-card">
+                <h3>Led Zeppelin</h3>
+                <p>Hard Rock</p>
+            </div>
+
+            <div class="genre-card">
+                <h3>The Rolling Stones</h3>
+                <p>Rock</p>
+            </div>
+
+            <div class="genre-card">
+                <h3>Guns N' Roses</h3>
+                <p>Hard Rock</p>
+            </div>
+
+            <div class="genre-card">
+                <h3>Linkin Park</h3>
+                <p>Alternative Rock</p>
+            </div>
+
+            <div class="genre-card">
+                <h3>Eagles</h3>
+                <p>Rock</p>
+            </div>
+
+            <div class="genre-card">
+                <h3>Pink Floyd</h3>
+                <p>Progressive Rock</p>
+            </div>
+
+            <div class="genre-card">
+                <h3>Queen</h3>
+                <p>Rock</p>
+            </div>
+        </section>
+    </section>
+    <div class="image-container">
+        <img src="C:\Users\supru\Downloads\картика 1.jpg" alt="Rock Image 1">
+        <img src="C:\Users\supru\Downloads\картика 2.jpg" alt="Rock Image 2">
+        <img src="C:\Users\supru\Downloads\картика 3.jpg" alt="Rock Image 3">
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82.html#">Home</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D1%80%D0%BE%D0%BA.html#">Rock</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BF%D0%BE%D0%BF.html#">Pop</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%B6%D0%B0%D0%B7%20%D0%B1%D0%BB%D1%8E%D0%B7.html">Jazz/Blues</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%D0%B0.html#">Classic</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%9C%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BE%D0%B1%D0%BE%20%D0%BC%D0%BD%D0%B5.html#">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <footer id="footer-section">
+        <div class="social-links">
+            <a href="https://t.me/SongBySofia" target="_blank">Telegram</a>
+            <a href="https://www.facebook.com/profile.php?id=100043176939605" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/song_fever_bysofia?igshid=ZGY1NnF5ZTNqMDlp" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/@songfeverbysofia?_t=8iQpY40TCLe&_r=1" target="_blank">TikTok</a>
+            <a href="https://youtube.com/@SongBySofia?si=FX7CQ54Vr7mRl9mv" target="_blank">YouTube</a>
+        </div>
+        <div class="contact-info">
+            <p>📞 Phone: +123456789</p>
+            <p>✉️ Email: info@songfever.com</p>
+        </div>
+        <section id="contact-section">
+        </section>
+        <div id="back-to-top" onclick="scrollToTop()">
+            🔝
+        </div>
+    </footer>
+    <script>
+        function scrollToSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        function toggleColumn(columnId) {
+            var column = document.getElementById(columnId);
+            column.style.display = (column.style.display === 'none' || column.style.display === '') ? 'table-cell' : 'none';
+        }
+    </script>
+</body>
+</html>

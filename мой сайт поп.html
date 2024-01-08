@@ -1,0 +1,253 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Page - Song Fever</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'cursive';
+        }
+
+        header {
+            background-color: #000000;
+            color: #77167a;
+            padding: 5px;
+            text-align: center;
+            border-bottom: 1px solid white;
+        }
+
+            header h1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            header h2 {
+                background-color: #000000;
+                color: #77167a;
+                padding: 5px;
+                text-align: center;
+                border-bottom: 1px solid white;
+                font-size: 27px;
+            }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+            font-size: 17px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #77167a;
+            font-weight: bold;
+        }
+
+        .site-description {
+            text-align: center;
+            padding: 40px;
+            color: #000000;
+        }
+
+            .site-description h1 {
+                text-align: center;
+                font-size: 36px;
+                font-weight: bold;
+                margin-bottom: 10px;
+                margin-top: 20px;
+            }
+
+            .site-description p {
+                font-size: 24px;
+                font-weight: normal;
+                margin-bottom: 10px;
+            }
+
+            .site-description h2 {
+                font-size: 28px;
+                font-weight: normal;
+                text-align: left;
+                margin-top: 20px;
+            }
+
+        .content-placeholder {
+            text-align: center;
+            padding: 20px;
+            color: #000000;
+        }
+
+            .content-placeholder h1 {
+                text-align: center;
+                font-size: 36px;
+                font-weight: bold;
+                margin-bottom: 10px;
+                margin-top: 20px;
+                color: #77167a;
+            }
+
+            .content-placeholder p {
+                font-size: 24px;
+                font-weight: normal;
+                margin-bottom: 10px;
+            }
+
+            .content-placeholder h2 {
+                font-size: 28px;
+                font-weight: normal;
+                text-align: left;
+                margin-top: 20px;
+                color: #77167a;
+            }
+
+        ul {
+            list-style-type: square; 
+            margin-left: 5px; 
+            font-size: 25px; 
+            color: #a668b1; 
+        }
+
+            ul ul {
+                list-style-type: square; 
+                margin-left: 10px; 
+            }
+
+        .gallery {
+            display: flex;
+            gap: 3px; 
+        }
+
+            .gallery img {
+                width: 60%; 
+                border-radius: 8px; 
+                height: 40%
+            }
+
+        footer {
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Song Fever</h1>
+        <h2>Pop</h2>
+        <nav>
+            <ul>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82.html#">Home</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D1%80%D0%BE%D0%BA.html#">Rock</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BF%D0%BE%D0%BF.html#">Pop</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B0%D0%B9%D1%82%20%D0%B4%D0%B6%D0%B0%D0%B7%20%D0%B1%D0%BB%D1%8E%D0%B7.html#">Jazz/Blues</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%D0%B0.html#">Classic</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%9C%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BE%D0%B1%D0%BE%20%D0%BC%D0%BD%D0%B5.html#">About Me</a></li>
+                <li><a href="#" onclick="scrollToSection('footer-section')">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="content-placeholder">
+        <h1>What is pop?</h1>
+        <p>Pop music (pop music from popular music; modern popular music) is a field of mass culture, covering various forms, genres and styles of entertainment and applied music of the 2nd half of the 20th - early 21st centuries. The main features of pop music are the simplicity of the instrumental part, rhythm, and emphasis on vocals. The main and practically the only form of composition in pop music is the song. Pop music includes subgenres such as k-pop, europop, latin, synth-pop, disco, dance music and others.</p>
+        <img src="https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Jazz" style="width: 1300px; height: 700px; margin: 20px 0;">
+        <h1>Characteristic</h1>
+        <p>Music critics identify the following criteria for pop music as a musical genre. The songs are structured according to a conservative verse + chorus pattern. Pop songs require simple, easy-to-understand melodies.</p>
+        <p>The main instrument in pop music is the human voice. The accompaniment is given a secondary role: accompanying pop musicians do not play solos and, most often, are neither songwriters nor band leaders.</p>
+        <p>Rhythmic structure plays an important role in pop music: many pop songs are written for dancing and have a clear, consistent beat. The basic musical unit in pop music is the single song or single. The average length of a song tends to be between 2 and 4 minutes, which is a standard radio format.</p>
+        <p>Long compositions with extensive instrumental parts are almost never found, as are concept albums. Lyrics in pop songs, as a rule, are devoted to personal experiences and emotions: love, sadness, joy.</p>
+        <p>The visual presentation of songs is also of great importance: concert shows and video clips. Therefore, many pop artists have an extravagant image. A pop artist's group often includes dancers, extras, and other people who are not involved in the performance of the music but play an important role in the concerts.</p>
+        <h2>Popular pop music styles:</h2>
+        <ul>
+            <li>Pop</li>
+            <li>Dance-pop</li>
+            <li>
+                Electro-pop
+                <ul>
+                    <li>Synth-pop</li>
+                    <li>Dream pop</li>
+                </ul>
+            </li>
+            <li>Indie pop</li>
+            <li>R&B pop</li>
+        </ul>
+
+        <h2>Some popular songs by style:</h2>
+        <ul>
+            <li>"Shake It Off" - Taylor Swift (Pop)</li>
+            <li>"Don't Stop Believin'" - Journey (Rock Pop)</li>
+            <li>"Call Me Maybe" - Carly Rae Jepsen (Dance-Pop)</li>
+            <li>"Electric Feel" - MGMT (Electro-pop)</li>
+            <li>"Take on Me" - A-ha (Synth-pop)</li>
+        </ul>
+        <img src="https://images.pexels.com/photos/1293006/pexels-photo-1293006.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Jazz" style="width: 1300px; height: 300px;">
+        <h1>History</h1>
+        <p>The term “pop song” was first used in English in 1926, but the roots of pop music go deeper into history. The immediate predecessor of pop music was folk music, as well as later street romances and ballads. Modern pop music was formed in parallel with other genres, such as rock music, and was not always separable from them.</p>
+        <p>In the 1950s and 1960s, its most typical form was the so-called. “traditional pop”, which in the USSR was usually called “pop music”, “pop”. Traditional pop is performed by a solo singer with background accompaniment. In the USA, pop music was closely connected with jazz, in France - with chanson.</p>
+        <p>A real breakthrough in pop music was the appearance in the 1970s of the “disco” style (Eurodisco) and groups such as ABBA, Boney M, Dschinghis Khan, Bee Gees. Pop music now replaces rock and roll as the main dance music in discos, and from this time on dance music is one of the main trends in pop music. Thanks to the emergence of music television (in particular, the MTV channel), the culture of video clips was formed in the 1980s. At this time, such stars as Prince, Michael Jackson and Madonna appeared in the USA.</p>
+        <p>Pop music during this period was influenced by hip-hop, soul and rhythm and blues. Although soul music dates back to the 1950s, it remained a music primarily listened to by African Americans until the 1980s. Artists such as Whitney Houston, Stevie Wonder and, of course, Ray Charles, who have been prominent in the R&B and soul scene since the late 1950s, have made this style a staple of modern pop music. In the 1990s and 2000s, electronic dance music (rave) was added to this.</p>
+        <div class="gallery">
+            <img src="https://i.pinimg.com/564x/0a/ea/65/0aea65cce0985fcada6ff2129ab3d638.jpg" alt="Image 1">
+            <img src="https://i.pinimg.com/564x/c0/a3/38/c0a33812cf42ceb8e2a51c11e9441997.jpg" alt="Image 2">
+        </div>
+    </section>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82.html#">Home</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D1%80%D0%BE%D0%BA.html#">Rock</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BF%D0%BE%D0%BF.html#">Pop</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%B6%D0%B0%D0%B7%20%D0%B1%D0%BB%D1%8E%D0%B7.html">Jazz/Blues</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%BC%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%D0%B0.html#">Classic</a></li>
+                <li><a href="file:///D:/Desktop/.vs/%D0%9C%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BE%D0%B1%D0%BE%20%D0%BC%D0%BD%D0%B5.html#">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <footer id="footer-section">
+        <div class="social-links">
+            <a href="https://t.me/SongBySofia" target="_blank">Telegram</a>
+            <a href="https://www.facebook.com/profile.php?id=100043176939605" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/song_fever_bysofia?igshid=ZGY1NnF5ZTNqMDlp" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/@songfeverbysofia?_t=8iQpY40TCLe&_r=1" target="_blank">TikTok</a>
+            <a href="https://youtube.com/@SongBySofia?si=FX7CQ54Vr7mRl9mv" target="_blank">YouTube</a>
+        </div>
+        <div class="contact-info">
+            <p>📞 Phone: +123456789</p>
+            <p>✉️ Email: info@songfever.com</p>
+        </div>
+        <section id="contact-section">
+        </section>
+        <div id="back-to-top" onclick="scrollToTop()">
+            🔝
+        </div>
+    </footer>
+    <script>
+        function scrollToSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        function toggleColumn(columnId) {
+            var column = document.getElementById(columnId);
+            column.style.display = (column.style.display === 'none' || column.style.display === '') ? 'table-cell' : 'none';
+        }
+    </script>
+</body>
+</html>
